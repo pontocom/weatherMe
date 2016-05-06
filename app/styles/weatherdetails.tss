@@ -1,0 +1,12 @@
+".container" : {
+  
+},
+"#cityName": {
+	font: { fontFamily:'Helvetica Neue Ultralight', fontSize: '32dp'}
+},
+"#textMainCondition": {
+	font: { fontFamily:'Helvetica Neue Ultralight', fontSize: '20dp'}
+},
+"#textDetailsCondition": {
+	font: { fontFamily:'Helvetica Neue Ultralight', fontSize: '12dp'}
+} 

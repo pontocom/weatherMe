@@ -1,0 +1,1 @@
+module.exports = [{"isId":true,"priority":100000.0001,"key":"favPlace","style":{font:{fontFamily:"Helvetica Neue Ultralight",fontSize:"18dp",},}},{"isId":true,"priority":100100.0002,"key":"favPlace","style":{font:{fontFamily:"Helvetica Neue Ultralight",fontSize:"18dp",},}}];

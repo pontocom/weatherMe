@@ -1,0 +1,17 @@
+<Alloy>
+    <NavigationWindow id="favouritesWindow">
+        <Window title="Favourites" backgroundColor="white">
+            <LeftNavButton>
+                <Button onClick="closeFavourites">Back</Button>
+            </LeftNavButton>
+                <ListView id="favouritesListView" defaultItemTemplate="favouritesList">
+                    <Templates>
+                        <ItemTemplate name="favouritesList">
+                            <Label bindId="fav" id="favPlace" />
+                        </ItemTemplate>
+                    </Templates>
+                    <ListSection id="favouritesListSection"></ListSection>
+                </ListView>
+         </Window>
+    </NavigationWindow>
+</Alloy>

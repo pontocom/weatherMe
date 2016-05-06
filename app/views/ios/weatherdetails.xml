@@ -1,0 +1,29 @@
+<Alloy>
+    <NavigationWindow id="detailsWindow">
+        <Window title="weatherMe" backgroundColor="white">
+            <LeftNavButton>
+                <Button onClick="closeDetails">Back</Button>
+            </LeftNavButton>
+            <RightNavButton>
+                <Button onClick="shareWeather">Share</Button>
+            </RightNavButton>
+            <View top = "5" width="100%">
+                <Label top="0">Weather Conditions</Label>
+                <ImageView id="iconWeather" left="20" top="40"></ImageView>
+                <Label id="cityName" left="100" top="40">City</Label>
+                <Label id="textMainCondition" left="100" top="80">Condition</Label>
+                <Label id="textDetailsCondition" left="100" top="100">Details</Label>
+
+                <Label id="textDescription" left="30" top="140">Details</Label>
+                <Label id="textTemp" left="30" top="170">Details</Label>
+                <Label id="textHumidty" left="30" top="190">Details</Label>
+                <Label id="textPressure" left="30" top="210">Details</Label>
+                <Label id="textWind" left="30" top="230">Details</Label>
+
+            </View>
+            <Button bottom="80" onClick="addtoFavourites">Add to favourites</Button>
+            <Button bottom="50" onClick="openForecast">Forecast</Button>
+            <Button bottom="20" onClick="shareWeather">Share</Button>
+        </Window>
+    </NavigationWindow>
+</Alloy>

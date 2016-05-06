@@ -1,0 +1,23 @@
+<Alloy>
+    <NavigationWindow id="weatherWindow">
+        <Window id="weatherWWindow" class="container" fullscreen="false" title="weatherMe">
+            <RightNavButton>
+                <Button onClick="openFavourites">Favourites</Button>
+            </RightNavButton>
+            <View id="mapview" ns="Alloy.Globals.Map" animate="true" regionFit="true" userLocation="true" height="Ti.UI.FILL" top="0" left="0" zIndex="-20"/>
+            <View width="95%" height="50" top="5" zIndex="100" opacity="100%">
+                <TextField id="cityName" platform="ios" backgroundColor="white" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" keyboardToolbarColor="#999" keyboardToolbarHeight="40" top="10" width="90%" height="30" hintText="Enter city...." clearOnEdit="true">
+                <KeyboardToolbar id="mapToolbar">
+                    <Toolbar>
+                        <Items>
+                            <Button systemButton="Ti.UI.iPhone.SystemButton.CANCEL"/>
+                            <FlexSpace/>
+                            <Button style="Ti.UI.iPhone.SystemButtonStyle.DONE" onClick="lookFor">Send</Button>
+                        </Items>
+                    </Toolbar>
+                </KeyboardToolbar>
+                </TextField>
+            </View>
+        </Window>
+    </NavigationWindow>
+</Alloy>

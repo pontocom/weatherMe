@@ -1,0 +1,6 @@
+<Alloy>
+    <Window id="weatherWindow" class="container" fullscreen="false" title="weatherMe">
+        <TextField id="cityName" top="0" width="100%" height="50" opacity="100" color="black" hintText="Enter city...." />
+        <View id="mapview" ns="Alloy.Globals.Map" animate="true" regionFit="true" userLocation="true" height="Ti.UI.FILL" top="51" left="0" />
+    </Window>
+</Alloy>

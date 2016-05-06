@@ -1,0 +1,19 @@
+"#wicon": {
+	top: 5,
+	left:5
+},
+"#weekday": {
+	font: { fontFamily:'Helvetica Neue Ultralight', fontSize: '18dp'},
+	top: 5,
+	left: 60
+},
+"#condition": {
+	font: { fontFamily:'Helvetica Neue Ultralight', fontSize: '20dp'},
+	top: 40,
+	left: 60
+},
+"#temperature": {
+	font: { fontFamily:'Helvetica Neue Ultralight', fontSize: '14dp'},
+	top: 60,
+	left: 60
+}

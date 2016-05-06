@@ -1,0 +1,20 @@
+<Alloy>
+    <NavigationWindow id="forecastWindow">
+        <Window title="Weather Forecast" backgroundColor="white">
+            <LeftNavButton>
+                <Button onClick="closeForecast">Back</Button>
+            </LeftNavButton>
+                <ListView id="forecastListView" defaultItemTemplate="forecastList">
+                    <Templates>
+                        <ItemTemplate name="forecastList">
+                            <ImageView bindId="icon" id="wicon"></ImageView>
+                            <Label bindId="wday" id="weekday" />
+                            <Label bindId="cond" id="condition" />
+                            <Label bindId="temp" id="temperature" />
+                        </ItemTemplate>
+                    </Templates>
+                    <ListSection id="forecastListSection"></ListSection>
+                </ListView>
+         </Window>
+    </NavigationWindow>
+</Alloy>
